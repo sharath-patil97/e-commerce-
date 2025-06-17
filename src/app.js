@@ -8,7 +8,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const authenticateToken = require('./middleware/authMiddleware');
 const cartRoutes = require('./routes/cartRoutes');
-const paymentRoutes = require('./routes/paymentRoutes');
+// const paymentRoutes = require('./routes/paymentRoutes');
 
 const app = express();
 
